@@ -1,8 +1,26 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Starting Template NextJS + Better Auth + Drizzle & NeonDB
+My starting template with authentication using Better Auth and NeonDB and Drizzle ORM
+
+
 
 ## Getting Started
 
-First, run the development server:
+Add the necessary env vars
+
+```
+BETTER_AUTH_SECRET
+BETTER_AUTH_URL
+DATABASE_URL
+GITHUB_CLIENT_ID
+GITHUB_CLIENT_SECRET
+DISCORD_CLIENT_ID
+DISCORD_CLIENT_SECRET
+```
+
+Currently Social Logins via Github and Discord
+
+
+Then, run the development server:
 
 ```bash
 npm run dev
